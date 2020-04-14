@@ -351,7 +351,7 @@ template {
 /* CSS Normalize */
 
 html {
-	font-family: 微軟正黑體, Roboto, Andale Mono;
+	font-family: 微軟正黑體, Roboto, Andale Mono, sans-serif;
 }
 
 * {
@@ -382,7 +382,6 @@ li {
 }
 
 .header h1 {
-	width: 288px;
 	font-size: 80px;
 	line-height: 90px;
 	margin-bottom: 24px;
@@ -413,7 +412,7 @@ section ul {
 	padding-left: 48px;
 }
 
-section li {
+section li p {
 	font-size: 24px;
 	line-height: 36px;
 }
@@ -511,11 +510,12 @@ section .workExp {
 	border-left: 1px solid #96a9c4;
 }
 
-.workExp li:first-child, .workExp li:nth-child(2), .workExp li:last-child h3, .workExp li:last-child img {
+.workExp li:first-child h3, .workExp li:last-child h3, .workExp li:first-child img, .workExp li:last-child img {
 	padding-bottom: 8px;
 }
 
 .workExp li p {
+	width: 642px;
 	font-size: 20px;
 	line-height: 30px;
 	word-break: break-word;
