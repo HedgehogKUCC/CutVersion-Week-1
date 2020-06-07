@@ -27,8 +27,8 @@
       </section>
       <!-- Profile -->
       <section class="container pb-4">
-        <h2>個人資料<small>PROFILE</small></h2>
-        <ul>
+        <h2 data-aos="zoom-in">個人資料<small>PROFILE</small></h2>
+        <ul data-aos="fade-left" data-aos-duration="3000">
           <li class="list-disc">
             <p>陳久安 Joanne Chen</p>
             <p>1997-</p>
@@ -41,8 +41,8 @@
       </section>
       <!-- Education -->
       <section class="container pb-4">
-        <h2>學歷<small>EDUCATION</small></h2>
-        <ul class="list">
+        <h2 data-aos="zoom-in">學歷<small>EDUCATION</small></h2>
+        <ul class="list" data-aos="fade-left" data-aos-duration="3000">
           <li class="list-disc list-timeLine mb-2">
             <p>國立六角師範大學 視覺設計學系 學士學位 | 2016－2020</p>
           </li>
@@ -55,25 +55,37 @@
       <section class="skills pb-4">
         <div class="skills-bg"></div>
         <div class="container skills-content">
-          <h2 class="text-center">技能<small>SKILLS</small></h2>
+          <h2 class="text-center" data-aos="zoom-in">
+            技能<small>SKILLS</small>
+          </h2>
           <ul>
-            <li>Adobe Photoshop</li>
-            <li>Adobe Illustrator</li>
-            <li>Adobe XD</li>
-            <li>Adobe Indesign</li>
-            <li>C4D</li>
-            <li>Adobe Premiere</li>
-            <li>語言：中文、英文</li>
+            <li data-aos="fade-left" data-aos-duration="3000">
+              Adobe Photoshop
+            </li>
+            <li data-aos="fade-left" data-aos-duration="3000">
+              Adobe Illustrator
+            </li>
+            <li data-aos="fade-left" data-aos-duration="3000">Adobe XD</li>
+            <li data-aos="fade-left" data-aos-duration="3000">
+              Adobe Indesign
+            </li>
+            <li data-aos="fade-left" data-aos-duration="3000">C4D</li>
+            <li data-aos="fade-left" data-aos-duration="3000">
+              Adobe Premiere
+            </li>
+            <li data-aos="fade-left" data-aos-duration="3000">
+              語言：中文、英文
+            </li>
           </ul>
         </div>
       </section>
       <!-- Work Experience -->
       <section class="container pb-4">
-        <h2 style="margin-bottom: 22px;">
+        <h2 style="margin-bottom: 22px;" data-aos="zoom-in">
           工作經驗<small>WORK EXPERIENCE</small>
         </h2>
         <ul class="workExp">
-          <li>
+          <li data-aos="fade-left" data-aos-duration="3000">
             <h3>六角學院 視覺設計實習生 | 2019/07－2020/06</h3>
             <img src="./images/hexschool.svg" alt="hexschool.svg" />
             <p>
@@ -84,16 +96,16 @@
               RWD官方網站設計，並設計各式網頁活動宣傳圖。
             </p>
           </li>
-          <li>
+          <li data-aos="fade-left" data-aos-duration="3000">
             <h3>獨立接案 Hao Jun 酒標設計 | 2019</h3>
           </li>
-          <li>
+          <li data-aos="fade-left" data-aos-duration="3000">
             <h3>獨立接案 Exulans 酒標設計 | 2019</h3>
           </li>
-          <li>
+          <li data-aos="fade-left" data-aos-duration="3000">
             <h3>獨立接案 桃園平鎮市民健走活動提案 | 2019</h3>
           </li>
-          <li>
+          <li data-aos="fade-left" data-aos-duration="3000">
             <h3>Simtree 興趣咖啡 工讀生 | 2018－2019</h3>
             <img src="./images/simtree.png" alt="simtree.png" />
             <p>擔任外場及吧台服務生，學習咖啡相關知識。</p>
@@ -103,8 +115,10 @@
       <!-- Contact -->
       <section class="contact">
         <div class="container contact-inner">
-          <h2 class="text-center">聯絡方式<small>CONTACT METHOD</small></h2>
-          <ul>
+          <h2 class="text-center" data-aos="zoom-in">
+            聯絡方式<small>CONTACT METHOD</small>
+          </h2>
+          <ul data-aos="fade-left" data-aos-duration="3000">
             <li>Mail：xxxd@hexschool.com</li>
             <li>Phone：0910123456</li>
             <li>Kaohsiung, Taiwan</li>
@@ -122,5 +136,13 @@
         </div>
       </section>
     </div>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1500,
+        once: true
+      })
+    </script>
   </body>
 </html>
